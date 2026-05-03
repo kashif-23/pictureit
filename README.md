@@ -20,3 +20,10 @@ npm run dev
 ## Notes
 
 This project focuses on visual intuition and hands-on learning for cybersecurity concepts.
+
+## Cloudflare deployment
+
+- Build command: `npm run build`
+- Output directory: `dist`
+- For Cloudflare Workers static site hosting, use the provided `wrangler.toml`.
+- When deploying, make sure the repo root is the Vite project root so Cloudflare can find `package.json` and `wrangler.toml`.

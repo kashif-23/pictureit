@@ -1,0 +1,10 @@
+name = "pictureit"
+compatibility_date = "2026-05-04"
+workers_dev = true
+
+[build]
+command = "npm run build"
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"
