@@ -1,29 +1,25 @@
 # PictureIt
 
-PictureIt is a modern interactive cybersecurity learning platform built with React and Vite.
+PictureIt is now a plain static HTML/CSS/JS cybersecurity learning demo.
 
 ## Setup
 
-```bash
-cd /Users/kashifamanat/pictureit/pictureit
-npm install
-npm run dev
-```
+Open `index.html` directly in a browser or deploy as a static site.
+
+## Deployment
+
+This repository is ready for Cloudflare Pages as a static site.
+
+- No build step required
+- No Node or bundler dependencies
+- Simply connect the repository and publish
 
 ## Project structure
 
-- `src/App.tsx` — main page and sections
-- `src/components/BufferOverflowDemo.tsx` — interactive buffer overflow simulator
-- `src/components/ProcessHollowingDemo.tsx` — process hollowing visualizer
-- `src/styles.css` — dark UI styling and responsive layout
+- `index.html` — page markup and content
+- `styles.css` — dark visual design and responsive layout
+- `script.js` — interactive buffer overflow and process hollowing demos
 
 ## Notes
 
-This project focuses on visual intuition and hands-on learning for cybersecurity concepts.
-
-## Cloudflare deployment
-
-- Build command: `npm run build`
-- Output directory: `dist`
-- For Cloudflare Workers static site hosting, use the provided `wrangler.toml`.
-- When deploying, make sure the repo root is the Vite project root so Cloudflare can find `package.json` and `wrangler.toml`.
+This simplified version avoids build tooling and Cloudflare worker complexity for a clean static deployment.
