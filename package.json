@@ -14,8 +14,10 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@cloudflare/kv-asset-handler": "^0.2.0",
     "@cloudflare/wrangler": "^4.0.0",
     "@cloudflare/workers-types": "^4.2026.0",
+    "@types/node": "^20.0.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
